@@ -47,11 +47,28 @@ h1{
     
     
 }
-.button_no{
+
+.yes_cat{
+    width:250px;
+}
+
+
+
+.button_no, .button_no_2{
     border: 8px solid white;
     width: 100px;
     border-radius: 20px;
     text-align: center;
     background-color: red;
     cursor:pointer;
+}
+
+.responses{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.final_cat{
+    width:400px; 
 }

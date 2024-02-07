@@ -1,11 +1,11 @@
-const yesButton = document.getElementsByClassName('button_yes')[0];
-const noButton = document.getElementsByClassName('button_no')[0];
+const yesButton = document.querySelector('.button_yes');
+const noButton = document.querySelector('.button_no');
 
-document.getElementsByClassName('yes')[0].hidden = true; 
+document.querySelector('.yes_cat').hidden = true; 
 
 yesButton.onclick = function(){
-    document.getElementsByClassName('cat_image')[0].hidden = true; 
-    document.getElementsByClassName('yes')[0].hidden = false; 
+    document.querySelector('.cat_image').hidden = true; 
+    document.querySelector('.yes_cat').hidden = false; 
 }
 
 
